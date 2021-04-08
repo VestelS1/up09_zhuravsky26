@@ -1,3 +1,5 @@
+/* first-block
+   ============================*/
 
 body {
     margin: 0;
@@ -29,6 +31,7 @@ p {
     background-image: url(./img/bgi.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0 0 150px;
 }
 
 #logo {
@@ -110,4 +113,62 @@ p {
     background-color: #fff;
     color: #000;
     transition: .4s;
+}
+
+/* our-work
+   ============================*/
+
+.our-work {
+    height: 520px;
+}
+
+.decor-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-block {
+    display: flex;
+    align-items: center;
+}
+
+.our-work-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+#butt {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #005BC1;
+    outline: none;
+}
+
+#butt:hover {
+    cursor: pointer;
+}
+
+.slider {
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider-line {
+    width: 1080px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+
+#img {
+    margin-left: 30px;
 }
