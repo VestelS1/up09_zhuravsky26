@@ -133,6 +133,10 @@ p {
     align-items: center;
 }
 
+.our-work {
+    margin: 0 0 150px;
+}
+
 .our-work-title {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -171,4 +175,127 @@ p {
 
 #img {
     margin-left: 30px;
+}
+
+.catalog  {
+    height: 100%;
+    height: 560px;
+    margin: 0 0 150px;
+}
+
+.catalog-links {
+    width: 211px;
+    height: 41px;
+    margin: 0 auto;
+}
+
+.catalog-link {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 47px;
+}
+
+.catalog-link:first-child {
+    margin-left: 0px;
+}
+
+.catalog-link:hover {
+    border-bottom: 2px solid #005BC1;
+    color: #005BC1
+}
+
+.comp {
+    filter: brightness(70%)
+}
+
+.comp:hover {
+    filter: brightness(100%)
+}
+
+#marg {
+    margin: 0 0 70px;
+}
+
+
+.catalog-items {
+    margin: 0 0 150px;
+}
+
+.catalog-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.arenda__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mar {
+    margin: 0 0 40px;
+}
+
+.text-arenda {
+    width: 405px;
+    height: 175px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #343434;
+}
+
+.slider2 {
+    width: 665px;
+    height: 394px;
+    border: 3px solid #005BC1;
+}
+
+.slider__inner {
+    width: 615px;
+    height: 334px;
+    margin: 0 auto;
+}
+
+.btn-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.inner-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#photo {
+    width: 255px;
+    height: 250px;
+}
+
+.slider-item {
+    display: flex;
+    justify-content: space-between
+}
+
+.title-ul {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.li p {
+    color: #343434;
+    font-size: 14px;
 }
