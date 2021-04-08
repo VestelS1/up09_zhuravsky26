@@ -307,6 +307,7 @@ p {
 .news {
     width: 100%;
     height: 364px;
+    margin: 0 0 170px;
 }
 
 .news-button {
@@ -439,3 +440,80 @@ p {
     width: 128px;
     height: 115px;
 }
+
+.footer {
+    width: 100%;
+    height: 255px;
+    background-color: #005BC1;
+}
+
+.flex-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 30px;
+    border-bottom: 2px solid #fff;
+}
+
+.phone-number {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.adrs {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.email {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.link-menu {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.link-menu:first-child {
+    margin-left: 0px;
+}
+
+.menu {
+    margin: 0 0 25px;
+    border-bottom: 2px solid #fff;
+}
+
+.menu2 {
+    width: 900px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.last-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+.design-name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
