@@ -231,6 +231,10 @@ p {
     margin-top: 50px;
 }
 
+.arenda {
+    margin: 0 0 108px;
+}
+
 .arenda__inner {
     display: flex;
     justify-content: space-between;
@@ -298,4 +302,140 @@ p {
 .li p {
     color: #343434;
     font-size: 14px;
+}
+
+.news {
+    width: 100%;
+    height: 364px;
+}
+
+.news-button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 13px 30px;
+    border: unset;
+    background-color: #005BC1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.news-button:hover {
+    cursor: pointer;
+}
+
+#pos-news {
+    margin: 0 0 77px;
+}
+
+#main-news {
+    width: 255px;
+    height: 242px;
+}
+
+.main-news {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-news-title {
+    display: flex;
+    align-items: center;
+}
+
+.main-title-text {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+#news-item {
+    margin-left: 60px;
+}
+
+#news-item:first-child {
+    margin-left: 0px;
+}
+
+.text {
+    margin-left: 30px;
+}
+
+.text-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-text {
+    width: 255px;
+    height: 133px;
+    margin: 0 0 35px
+}
+
+.flex-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.text-main {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #343434;
+}
+
+.link-news {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+}
+
+.title2-news {
+    width: 225px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.text-news2 {
+    width: 225px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #343434;
+}
+
+#little_news {
+    width: 128px;
+    height: 115px;
+}
+
+
+.title3-news {
+    width: 225px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.news3-text {
+    margin: 0 0 20px;
+}
+.text-news3 {
+    width: 225px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #343434;
+}
+
+#little_news {
+    width: 128px;
+    height: 115px;
 }
